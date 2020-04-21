@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Sam Boysel</title>
+    <link>https://sboysel.github.io/docs/</link>
+    <description>Recent content in Docs on Sam Boysel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://sboysel.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projects</title>
+      <link>https://sboysel.github.io/docs/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sboysel.github.io/docs/projects/</guid>
+      <description>Projects How do Employment Verification Mandates Impact U.S. Agriculture? Abstract: Employment verification mandates require firms to prove each new hire’s legal right to work in the U.S. and sanction employers who knowingly hire undocumented workers. The effects of such policies are of particular concern to the agricultural sector, which draws from a labor pool in which undocumented workers have been historically overrepresented. This paper empirically estimates the impact of state-level mandates on farm outcomes.</description>
+    </item>
+    
+  </channel>
+</rss>
