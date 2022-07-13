@@ -4,11 +4,12 @@ title: "Home"
 
 <style>
 main#content ul {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 main#content ul li {
     display: inline;
+    margin: 0px 2px 0px 2px;
 }
 </style>
 
@@ -25,12 +26,10 @@ network economics.  Specifically, my work has centered around the private
 provision of public goods, productivity in open collaboration, and welfare
 effects within the context of open source software (OSS) ecosystems.
 
-#### Contact
-
-- **[[boysel@usc.edu]](mailto:boysel@usc.edu)** 
-- **[[GitHub]](https://github.com/sboysel)** 
-- **[[Twitter]](https://twitter.com/samjboysel?lang=en)** 
-- **[[StackOverflow]](https://stackoverflow.com/users/3277821/sboysel)** 
-- **[[LinkedIn]](https://www.linkedin.com/in/sboysel)**
+- <i class="fa fa-envelope-o" aria-hidden="true"></i> [boysel@usc.edu](mailto:boysel@usc.edu) 
+- <i class="fa fa-github" aria-hidden="true"></i> [sboysel](https://github.com/sboysel) 
+- <i class="fa fa-twitter" aria-hidden="true"></i> [@samjboysel](https://twitter.com/samjboysel?lang=en) 
+- <i class="fa fa-stack-overflow" aria-hidden="true"></i> [sboysel](https://stackoverflow.com/users/3277821/sboysel)
+- <i class="fa fa-linkedin" aria-hidden="true"></i> [sboysel](https://www.linkedin.com/in/sboysel)
 
 [//]: # (JEL Codes: L86, O36, D23, D24, D26, D62, D85)
