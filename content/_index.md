@@ -20,7 +20,7 @@ main#content ul li {
 
 I am a PhD candidate in the [Department of
 Economics](https://dornsife.usc.edu/econ/home/) at the [University of Southern
-California](https://www.usc.edu/).  I am an applied microeconomist with reseach
+California](https://www.usc.edu/).  I am an applied microeconomist with research
 interests at the intersection of digital economics, industrial organization, and
 network economics.  Specifically, my work has centered around the private
 provision of public goods, productivity in open collaboration, and welfare
