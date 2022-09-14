@@ -27,7 +27,9 @@ developer labor hours. These results support the notion that OSS is largely
 developed by disproportionate efforts from smaller groups of dedicated core
 maintainers, who integrate incremental contributions from the wider community,
 and casts doubt on the promise for peer effects alone to deliver sustained
-maintenance labor to individual projects. [[working paper]](https://drive.google.com/file/d/1AX2HY18d8kPSPqLExT3k3mdPSS8z7Q4q/view?usp=sharing)
+maintenance labor to individual projects. [[working
+paper]](https://drive.google.com/file/d/1AX2HY18d8kPSPqLExT3k3mdPSS8z7Q4q/view?usp=sharing)
+[[slides]](https://drive.google.com/file/d/1les20Z1S3sMZWBnREJJxIVcVuCK5yZZA/view?usp=sharing)
 
 ### How do Employment Verification Mandates Impact U.S. Agriculture?
 

@@ -34,7 +34,8 @@ main#content ul {
 
 - ***Quid Pro Code: Peer Effects and Productivity in Open Source Software***
   (job market paper)
-  [[working paper]](https://drive.google.com/file/d/1AX2HY18d8kPSPqLExT3k3mdPSS8z7Q4q/view?usp=sharing)
+  [[working
+  paper]](https://drive.google.com/file/d/1AX2HY18d8kPSPqLExT3k3mdPSS8z7Q4q/view?usp=sharing) [[slides]](https://drive.google.com/file/d/1les20Z1S3sMZWBnREJJxIVcVuCK5yZZA/view?usp=sharing)
 - ***No Free Lunch For Programmers: Digital Supply Chains and the Economics of Software Dependency Management*** (early stages)
 - ***Measuring the Local Economic Impact of Open Source Software in US Cities***
   with Matthew Kahn, Mac McComas, and Luis Quintero (early stages)
