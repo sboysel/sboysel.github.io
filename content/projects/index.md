@@ -33,25 +33,26 @@ paper]](https://drive.google.com/file/d/1AX2HY18d8kPSPqLExT3k3mdPSS8z7Q4q/view?u
 
 ### No Free Lunch For Programmers: Digital Supply Chains and the Economics of Software Dependency Management
 
-Developers of software projects can leverage the functionality of existing open
-source projects.  This practice can potentially lower the cost of development
-albeit at the inherent risk of relying on external components. A "downstream"
-project maintainer can choose to "import" elements of an "upstream" project to
-outsource functionality, but is uncertain how future changes in this dependency
-project may expose her own project to software faults or vulnerabilities.
-Software dependency networks therefore represent a "digital supply chain", an
-ecosystem of interdependent public goods that confer an intricate set of both
-positive and negative externalities for project maintainers and end users.
-Focusing on microeconomic fundamentals of the dependency management problem
-faced by the risk averse project maintainer, we use both reduced form and
-structural approaches to study how dependency networks create value, what forces
-shape their formation, and how individual behavior can influence the robustness
-of equilibrium network structure.  We use a sample of open source software
-projects from the Node.js JavaScript packaging ecosystem for which contribution
-and dependency formation decisions are observed in real-time. Finally, we
-consider several policy interventions that can improve equilibrium welfare.  In
-particular, we find that removing less that 1% of core projects can reduce
-aggregate project quality by more than 5% for the remaining peers. [[working
+**Abstract:** Developers of software projects can leverage the functionality of
+existing open source projects.  This practice can potentially lower the cost of
+development albeit at the inherent risk of relying on external components. A
+"downstream" project maintainer can choose to "import" elements of an "upstream"
+project to outsource functionality, but is uncertain how future changes in this
+dependency project may expose her own project to software faults or
+vulnerabilities. Software dependency networks therefore represent a "digital
+supply chain", an ecosystem of interdependent public goods that confer an
+intricate set of both positive and negative externalities for project
+maintainers and end users. Focusing on microeconomic fundamentals of the
+dependency management problem faced by the risk averse project maintainer, we
+use both reduced form and structural approaches to study how dependency networks
+create value, what forces shape their formation, and how individual behavior can
+influence the robustness of equilibrium network structure.  We use a sample of
+open source software projects from the Node.js JavaScript packaging ecosystem
+for which contribution and dependency formation decisions are observed in
+real-time. Finally, we consider several policy interventions that can improve
+equilibrium welfare.  In particular, we find that removing less that 1% of core
+projects can reduce aggregate project quality by more than 5% for the remaining
+peers. [[working
 paper]](https://drive.google.com/file/d/1UUlCrP2HZZWlUxa1CzBcGtupfELCBWfk/view?usp=sharing)
 [[slides]](https://drive.google.com/file/d/1JDVLZH0VWRDYpDQYo22yxNlHXJeCnNld/view?usp=sharing)
 
