@@ -13,7 +13,7 @@ main#content ul {
     font-size: 1.4rem;
 }
 </style>
-[[pdf]](https://drive.google.com/file/d/1Kr-oR72ME9zOYiobKRX4gpTfiq584tH5/view?usp=sharing) 
+[[pdf]](https://drive.google.com/file/d/176Hhazlai5ew14aE7JHfqNNajQfBsKQN/view?usp=sharing) 
 
 
 ## Education
@@ -32,6 +32,8 @@ main#content ul {
 
 [[details]]({{< ref "/projects" >}} "Projects")
 
+Economics of Digital Public Goods
+
 - ***Quid Pro Code: Peer Effects and Productivity in Open Source Software***
   (job market paper)
   [[working
@@ -39,6 +41,9 @@ main#content ul {
 - ***No Free Lunch For Programmers: Digital Supply Chains and the Economics of Software Dependency Management*** [[working paper]](https://drive.google.com/file/d/1UUlCrP2HZZWlUxa1CzBcGtupfELCBWfk/view?usp=sharing) [[slides]](https://drive.google.com/file/d/1JDVLZH0VWRDYpDQYo22yxNlHXJeCnNld/view?usp=sharing)
 - ***Measuring the Local Economic Impact of Open Source Software in US Cities***
   with Matthew Kahn, Mac McComas, and Luis Quintero (early stages)
+
+Other
+
 - ***Good for the Environment, Good for the Economy: The Potential of
   Transportation Electrification Policies to Foster Economic Growth in Greater
   Los Angeles*** with Ruozi Song, Dan Ibarrola, Monica Morlacco, and Kate Weber
@@ -57,22 +62,24 @@ main#content ul {
 
 ## Experience
 
-|                                                                    |                            |
-|--------------------------------------------------------------------|---------------------------:|
-| **USC Dornsife Public Exchange / Los Angeles Cleantech Incubator** |         May 2020 - present |
-| Researcher                                                         |                            |
-| **USC Department of Economics**                                    |      August 2018 - present |
-| Teaching Assistant (microeconomics, macroeconomics, math camp)     |                            |
-| **Department of Finance, City of Los Angeles**                     | November 2018 - April 2019 |
-| Researcher                                                         |                            |
-| **University of Chicago**                                          |  August 2016 - August 2017 |
-| Research Assistant                                                 |                            |
-| **Tufts University**                                               |     May 2015 - August 2017 |
-| Research Assistant                                                 |                            |
-| **Tufts University Department of Economics**                       |     August 2014 - May 2016 |
-| Teaching Assistant (statistics, math camp)                         |                            |
-| **Novacoast, Inc.**                                                | January 2014 - August 2014 |
-| Remote Managed Services Engineer                                   |                            |
+|                                                                    |                                  |
+|--------------------------------------------------------------------|---------------------------------:|
+| **Laboratory for Innovation Science at Harvard**                   |         January 2023 - present   |
+| Post-doctoral fellow                                               |                                  |
+| **USC Dornsife Public Exchange / Los Angeles Cleantech Incubator** |         May 2020 - December 2022 |
+| Researcher                                                         |                                  |
+| **USC Department of Economics**                                    |      August 2018 - December 2022 |
+| Teaching Assistant (microeconomics, macroeconomics, math camp)     |                                  |
+| **Department of Finance, City of Los Angeles**                     | November 2018 - April 2019       |
+| Researcher                                                         |                                  |
+| **University of Chicago**                                          |  August 2016 - August 2017       |
+| Research Assistant                                                 |                                  |
+| **Tufts University**                                               |     May 2015 - August 2017       |
+| Research Assistant                                                 |                                  |
+| **Tufts University Department of Economics**                       |     August 2014 - May 2016       |
+| Teaching Assistant (statistics, math camp)                         |                                  |
+| **Novacoast, Inc.**                                                | January 2014 - August 2014       |
+| Remote Managed Services Engineer                                   |                                  |
 
 ## Honors and Awards
 
