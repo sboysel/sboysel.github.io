@@ -20,7 +20,7 @@ main#content ul {
 
 |                                          |                                     |
 | :--------------------------------------- | ----------------------------------: |
-| **Ph.D. Economics**                      | August 2017 - May 2023 *expected*   |
+| **Ph.D. Economics**                      | August 2017 - December 2022   |
 | University of Southern California        |                                     |
 | **M.S. Economics**                       | August 2014 - May 2016              |
 | Tufts University                         |                                     |
