@@ -4,8 +4,8 @@ title: "Home"
 
 <style>
 main#content ul {
-    width: 90%;
-    margin: auto;
+    width: 95%;
+    margin: 0px;
 }
 main#content ul li {
     display: inline;
@@ -20,10 +20,11 @@ main#content ul li {
 
 I am a post-doctoral fellow at the [Laboratory for Innovation Science at
 Harvard](https://lish.harvard.edu/).  I am an applied microeconomist with
-research interests at the intersection of digital economics, industrial
-organization, and network economics.  Specifically, my work has centered around
-the private provision of public goods, productivity in open collaboration, and
-welfare effects within the context of open source software (OSS) ecosystems.
+research interests at the intersection of digital economics, labor and
+productivity, industrial organization, and socio-technical networks.
+Specifically, my work has centered around the private provision of public
+goods, productivity in open collaboration, and welfare effects within the
+context of open source software (OSS) ecosystems.
 
 - <i class="fa fa-envelope-o" aria-hidden="true"></i> [sboysel@hbs.edu](mailto:sboysel@hbs.edu) 
 - <i class="fa fa-github" aria-hidden="true"></i> [sboysel](https://github.com/sboysel)
