@@ -1,5 +1,5 @@
 +++
-title = "Cirriculum Vitae"
+title = "Curriculum Vitae"
 +++
 <style>
 main#content table {
