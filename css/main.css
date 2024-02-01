@@ -1,0 +1,132 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+p {
+  line-height: 1.2em;
+}
+
+a {
+  color: rgb(70, 119, 179);
+}
+
+summary {
+  color: rgb(70, 119, 179);
+}
+
+table {
+  width: 100%;
+}
+
+/* Containers
+
++--------------------+
+| +--------+-------+ |
+| | avatar | links | |
+| +--------+-------+ |
+| |   content      | |
+| +----------------+ |
++--------------------+
+
+*/
+
+.container {
+  width: 960px;
+  max-width: calc(100% - 100px);
+  padding: 10px;
+  grid-template-columns: 1fr;
+  display: grid;
+}
+
+.top {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 200px 3fr;
+  grid-gap: 20px;
+}
+
+.links {
+  max-width: 90%;
+}
+
+.avatar {
+  padding: 20px 0px 0px 0px; 
+}
+
+/* content elements with blue left side border */
+.bordered {
+  border-left: 4px solid rgb(70, 119, 179);
+  padding: 0px 10px 0px 10px;
+}
+
+/* main div navigation */
+.tabs {
+  display: block;
+  position: relative;
+  padding: 0px;
+}
+
+.tabs .tab {
+  float: left;
+  display: block;
+}
+
+/* tab labels */
+.tabs .tab>input[type="radio"] {
+  /* removes radio buttons from visible area */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.tabs .tab>label {
+  font-size: 1.25em;
+  font-weight: 600;
+  display: block;
+  padding: 0px 10px 0px 0px;
+  position: relative;
+}
+
+.tabs .tab>label:hover {
+  color: rgb(70, 119, 179);
+}
+
+.tabs>.tab>[id^="tab"]:checked + label {
+  top: 0;
+  text-decoration: underline;
+  text-decoration-color: rgb(70, 119, 179);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
+}
+
+/* tab content */
+.tabs .content {
+  width: 90%;
+  padding: 10px 5px 0px 5px;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;  
+  opacity: 0;
+}
+
+.tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+  z-index: 1;
+  opacity: 1;
+}
+
+/* projects */
+.project {
+  border-left: 4px solid rgb(70, 119, 179);
+  padding-left: 0.5em;
+  margin: 1em 0em; 
+}
+
+.projects.title {
+  font-weight: bold;  
+  margin-bottom: 0rem;
+}
+
+
