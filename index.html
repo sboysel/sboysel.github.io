@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Sam Boysel</title>
+  <meta name="description" content="Personal website for Sam Boysel">
+  <meta name="author" content="Sam Boysel">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Google Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icons)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <script src="https://kit.fontawesome.com/d45b247700.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="container">
+
+  <div class="top">
+
+    <div class="avatar">
+        <img src="img/profile.png" alt="Sam Boysel">
+    </div>
+
+    <div class="links">
+      
+      <h2>Sam Boysel</h2>
+    
+      <table style="width:100%">
+        <tr>
+          <td><i class="fa-solid fa-building"></i></td>
+          <td>Postdoctoral fellow</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://lish.harvard.edu/">Laboratory for Innovation Science at Harvard</a></td>
+        </tr>      
+        <tr>
+          <td></td>
+          <td>Harvard Business School</td>
+        </tr>
+        <tr>
+          <td><i class="fa-regular fa-envelope"></i></td>
+          <td><a href="mailto:sboysel@hbs.edu">sboysel@hbs.edu</a></td>      
+          </tr>
+        <tr>
+          <td><i class="fa-brands fa-github-alt"></i></td>        
+          <td><a href="https://github.com/sboysel">github.com/sboysel</a></td>
+        </tr>
+        <tr>
+          <td><i class="fa-brands fa-linkedin-in"></i></td>
+          <td><a href="">linkedin.com/sboysel</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <div class="content">
+    
+    <ul class="tabs">
+    
+      <li class="tab">
+        <input type="radio" name="tabs" checked="checked" id="tab1" />
+        <label for="tab1">About</label>
+        <div id="tab-content1" class="content">
+
+          <p class="bordered">
+          I am a post-doctoral fellow at the Laboratory for Innovation Science at Harvard. I am an applied microeconomist with research interests at the intersection of digital economics, labor and productivity, industrial organization, and socio-technical networks. Specifically, my work has centered around the private provision of public goods, productivity in open collaboration, and welfare effects within the context of open source software (OSS) ecosystems.
+          </p>
+          
+        </div>
+      </li>
+      
+      <li class="tab">
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2">Research</label>   
+        <div id="tab-content2" class="content">
+
+          <h4>Working Papers</h4>
+          
+          <!-- Project 1 -->
+          <div class="project">
+            
+            Quid Pro Code: Peer Effects and Productivity in Open Source Software
+            <a href="pdf/oss_peer_effects_sboysel_article.pdf" type="application/pdf">[working paper]</a> 
+            <a href="pdf/oss_peer_effects_sboysel_slides.pdf" type="application/pdf">[slides]</a>        
+            
+            <details>        
+              <summary>[abstract]</summary>
+              <p>
+              We empirically examine the extent to which peer effects influence the private provision of public goods. In the case of public information goods, peer contribution may facilitate or otherwise incentivize further contribution from others, effectively subsidizing private provision. Using the setting of Open Source Software (OSS) contribution, we first utilize a reduced form approach to derive causal estimates of net peer effects in public goods contribution by exploiting a peers-of-peers identification strategy. We next develop a structural model of peer-influenced public good provision that both (1) separates extensive and intensive margin contribution decisions and (2) decomposes contribution into marginal private benefits and costs. We apply these methodologies using a sample of peer contribution histories for 2,287 OSS projects hosted on the GitHub collaboration platform. Both reduced form and structural approaches suggest peer effects are much stronger along the extensive margin than the intensive margin. Contemporaneous intensive margin effects, while heterogenous across time and projects, are small and centered around zero, suggesting that strategic complementarity and substitution in peer contribution likely offset one another. Our counterfactual analysis suggests (extensive margin) peer effects account for nearly 56% of cumulative aggregate contribution in the sample, which translates to a value-added of 1-1.5 million software developer labor hours. These results support the notion that OSS is largely developed by disproportionate efforts from smaller groups of dedicated core maintainers, who integrate incremental contributions from the wider community, and casts doubt on the promise for peer effects alone to deliver sustained maintenance labor to individual projects.
+              </p>
+            </details>
+          
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="project">
+            
+            No Free Lunch For Programmers: Digital Supply Chains and the Economics of Software Dependency Management
+            <a href="pdf/oss_digital_supply_chains_sboysel_article.pdf" type="application/pdf">[working paper]</a> 
+            <a href="pdf/oss_digital_supply_chains_sboysel_slides.pdf" type="application/pdf">[slides]</a> 
+            
+            <details>        
+              <summary>[abstract]</summary>
+              <p>
+              Developers of software projects can leverage the functionality of existing open source projects. This practice can potentially lower the cost of development albeit at the inherent risk of relying on external components. A “downstream” project maintainer can choose to “import” elements of an “upstream” project to outsource functionality, but is uncertain how future changes in this dependency project may expose her own project to software faults or vulnerabilities. Software dependency networks therefore represent a “digital supply chain”, an ecosystem of interdependent public goods that confer an intricate set of both positive and negative externalities for project maintainers and end users. Focusing on microeconomic fundamentals of the dependency management problem faced by the risk averse project maintainer, we use both reduced form and structural approaches to study how dependency networks create value, what forces shape their formation, and how individual behavior can influence the robustness of equilibrium network structure. We use a sample of open source software projects from the Node.js JavaScript packaging ecosystem for which contribution and dependency formation decisions are observed in real-time. Finally, we consider several policy interventions that can improve equilibrium welfare. In particular, we find that removing less that 1% of core projects can reduce aggregate project quality by more than 5% for the remaining peers.
+              </p>
+            </details>
+          
+          </div>
+
+        <h4>In Progress</h4>
+
+          <!-- Project 3 -->
+          <div class="project">
+            
+            Labor Competition and Open Innovation (with Manuel Hoffmann and Frank Nagle)
+
+            <details>        
+              <summary>[abstract]</summary>
+              <p>
+              Innovation, a key driver of competitive advantage, increasingly occurs through informal partnerships between firms collaborating on public goods. However, competitive forces may influence contribution patterns. Existing studies primarily consider the role competition plays in closed and private innovation. Therefore, we utilize data on millions of firm contributions to open source software, a crowdsourced public good, to measure the relationship between the level of competition a firm faces and its participation in informal innovation partnerships. We further create a novel measure of the labor competition a firm faces using Lightcast data on job postings. While the relationship between labor and product market competition is nuanced and warrants further investigation, labor competition is particularly important in innovative and technology-focused contexts. We find that labor market competition and open source contributions exhibit an inverted U-relationship. The current findings hint at open innovation being a potentially strategic choice in hiring decisions during times of low labor market power of firms.
+              </p>
+            </details>
+          
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project">
+            
+            The Labor Implications of Generative AI: Evidence from GitHub Copilot (with Manuel Hoffmann, Frank Nagle, Sida Peng, and Kevin Xu)
+          
+          </div>
+
+        </div>
+      </li>
+
+      <li class="tab">
+        <input type="radio" name="tabs" id="tab3" />
+        <label for="tab3">CV</label>   
+        <div id="tab-content3" class="content">
+
+          <a href="pdf/cv.pdf" type="application/pdf">[pdf]</a>
+
+          <h4>Education</h4>
+          
+          <div class="bordered">
+            <table>
+              <tr>
+                <td style="font-weight: 900;">Univerity of Southern California</td>
+                <td style="text-align: right;">2022</td>
+              </tr>
+              <tr>
+                <td>Ph.D. Economics</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">Tufts University</td>
+                <td style="text-align: right;">2016</td>
+              </tr>
+              <tr>
+                <td>M.S. Economics</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">UCLA</td>
+                <td style="text-align: right;">2013</td>
+              </tr>
+              <tr>
+                <td>B.A. Economics, <i>cum laude</i></td>
+                <td style="text-align: right;"></td>
+              </tr>
+              
+            </table>
+          </div>
+
+          <h4>Employment</h4>
+
+          <div class="bordered">
+            <table>
+
+              <tr>
+                <td style="font-weight: 900;">Harvard Business School</td>
+                <td style="text-align: right;">2023 - present</td>
+              </tr>
+              <tr>
+                <td>Postdoctoral Fellow (Laboratory for Innovation Science at Harvard)</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">USC Public Exchange</td>
+                <td style="text-align: right;">2018 - 2022</td>
+              </tr>
+              <tr>
+                <td>Researcher</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">City of Los Angeles Department of Finance</td>
+                <td style="text-align: right;">2018 - 2019</td>
+              </tr>
+              <tr>
+                <td>Researcher</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">University of Chicago</td>
+                <td style="text-align: right;">2016 - 2017</td>
+              </tr>
+              <tr>
+                <td>Research Assistant</td>
+                <td style="text-align: right;"></td>
+              </tr>
+              
+            </table>
+          </div>
+
+          <h4>Awards and Honors</h4>
+
+          <div class="bordered">
+            <table>
+
+              <tr>
+                <td style="font-weight: 900;">Daniel and Mary James Fellowship</td>
+                <td style="text-align: right;">2018 - 2019</td>
+              </tr>
+              <tr>
+                <td>USC</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">Union Bank Fellowship</td>
+                <td style="text-align: right;">2017 - 2018</td>
+              </tr>
+              <tr>
+                <td>USC</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">Linda Datcher Loury Award in Economics for outstanding master’s thesis</td>
+                <td style="text-align: right;">2016</td>
+              </tr>
+              <tr>
+                <td>Tufts</td>
+                <td style="text-align: right;"></td>
+              </tr>
+
+              <tr>
+                <td style="font-weight: 900;">Department of Economics Graduate Research Fellowship</td>
+                <td style="text-align: right;">2015 - 2016</td>
+              </tr>
+              <tr>
+                <td>Tufts</td>
+                <td style="text-align: right;"></td>
+              </tr>
+              
+            </table>
+          </div>
+
+          <h4>Skills</h4>
+
+          <div class="bordered">
+          <p>R, Python, Julia, Bash, Linux system administration, git / GitHub, reproducible research, geospatial analysis, social network analysis.</p>
+          </div>
+        
+        </div>
+      </li>
+
+      <li class="tab">
+        <input type="radio" name="tabs" id="tab4" />
+        <label for="tab4">Projects</label>   
+        <div id="tab-content4" class="content">
+
+          <h4>Software</h4>
+
+          <div class="project">
+            fredr: R client for FRED API
+            <a href="https://github.com/sboysel/fredr">[repository]</a>
+            <a href="https://sboysel.github.io/fredr/">[documentation]</a>
+            <a href="https://cran.r-project.org/package=fredr">[CRAN]</a>
+          </div>
+
+          <h4>Resources</h4>
+
+          <div class="project">
+            <a href="https://github.com/sboysel/awesome-oss-research-data">awesome-oss-research-data</a>: A (curated) list of empirical research and datasets in the space of open source software. Contributions welcome!
+          </div>
+
+          <h4>Other</h4>
+
+          <div class="project">
+            <a href="http://cournot.sun.ac.za/fppssa/">"Female Political Participation in Sub-Saharan Africa"</a>. Involvement: lead research assistant, oversaw data collection and processing, built project website and interative visualizations.
+          </div>
+
+          <div class="project">
+            
+            How do Employment Verification Mandates Impact U.S. Agriculture? (master's thesis)
+            <a href="pdf/sboysel-thesis-201605.pdf" type="application/pdf">[working paper]</a>
+
+            <details>        
+              <summary>[abstract]</summary>
+              <p>
+              Employment verification mandates require firms to prove each new hire’s legal right to work in the U.S. and sanction employers who knowingly hire undocumented workers. The effects of such policies are of particular concern to the agricultural sector, which draws from a labor pool in which undocumented workers have been historically overrepresented. This paper empirically estimates the impact of state-level mandates on farm outcomes. By exploiting geographic variation in statewide E-Verify mandates implemented between 2007 and 2012, I use an identification strategy that combines both differences-in-differences and regression discontinuity techniques to isolate the effect of E-Verify on agricultural labor patterns. While addressing a number of identification and estimation challenges, I find that worker density falls by roughly 35% at the policy-change border for states with stringent mandates. Furthermore, the average farm spends less per worker within counties adjacent to this same set of E-Verify states, suggesting some presence of spillover effects.
+              </p>
+            </details>
+          
+          </div>
+          
+        </div>
+      </li>
+      
+    </ul>
+
+  </div>
+
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
